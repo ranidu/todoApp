@@ -1,0 +1,110 @@
+html{
+  min-height: 100%;
+}
+
+body {
+  margin: 0;
+  font-family: 'Bree Serif', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+  padding: 0;
+  background: url(/img/bg1.jpg) no-repeat;
+  background-size: 100%;
+  background-position: bottom;
+  background-color: #95e8f3;
+  min-height: 100%;
+}
+
+form{
+  padding: 20px;
+  margin-top: 20px;
+}
+
+form button, form h5{
+  margin: 20px 0;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+[type="checkbox"]:not(:checked), [type="checkbox"]:checked{
+  /* opacity: 1; */
+  pointer-events: visible;
+}
+
+
+main {
+  flex: 1 0 auto;
+}
+
+.select-all-panel .active-btn{
+  float: right;
+  margin-left: 5px;
+}
+.select-all-panel .complete-btn{
+  float: right;
+}
+
+.selectall-panel{
+  padding: 10px;
+}
+
+.selectall-label{
+  line-height: 20px !important;
+  font-size: 14px !important;
+  color: white
+}
+
+form.create-form{
+  padding: 20px 40px;
+}
+
+.task-list{
+  padding: 10px 10px;
+  border-radius: 5px;
+  text-align: left;
+}
+
+.task-list .row{
+  margin-bottom: 0px;
+}
+
+.create-form div{
+  margin-bottom: 0px;
+}
+
+.logo-text{
+  font-family: 'Lobster Two', cursive;
+  font-size: 32px;
+}
+
+.task-list span{
+  margin-top: 7px;
+}
+
+.task-action{
+  text-align: right;
+}
+
+.todo-category-selector a{
+  width: 120px
+}
+
+.task-action .switch label{
+  color: white
+}
+
+.task-details p{
+  margin-top: 5px;
+  margin-bottom: 0px;
+}
+
+.task-details span{
+  color: #e6e6e6a6
+}
