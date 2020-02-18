@@ -19,7 +19,7 @@ Frontend
 npm start
 ```
 
-Backend
+Backend  ./backend
 ```
 npm run start
 ```
