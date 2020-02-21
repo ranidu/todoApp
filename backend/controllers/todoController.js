@@ -40,7 +40,7 @@ export default class TodoController {
     try {
       return await Todo.find().sort("-createdAt");
     } catch (e) {
-      console.log(e);;
+      console.log(e);
     }
   }
 
